@@ -1,5 +1,5 @@
-{{ if $data.pricing.pricing.enable }}
-{{ with $data.pricing.pricing }}
+{{ if .Site.data.pricing.pricing.enable }}
+{{ with .Site.data.pricing.pricing }}
 {{"<!-- Start Pricing section -->" | safeHTML}}
 <section>
   <div class="container">
