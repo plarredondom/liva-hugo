@@ -13,7 +13,7 @@ h1{
   line-height: 32px;
   padding-top: 70px;
   a{
-    color: #66CCCC;
+    color: #1BF2A3;
   }
 }
 
@@ -23,12 +23,12 @@ h1{
   margin-top: 30px;
   
   .featured-table{
-    box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 19px -3px rgb(242, 136, 75);
   }
   
   .pricing-table{
     display: inline-block;
-    border: 1px solid #C8C8C8;
+    border: 1px solid #D9308D;
     border-radius: 10px;
     background: white;
     margin: 20px;
@@ -37,8 +37,8 @@ h1{
     &__header{
       padding: 20px;
       font-size: 20px;
-      color: #909090 ;
-      background: #E0E0E0;
+      color: #7EA5F2 ;
+      background: #F2E6D8;
     }
     &__price{
       color: #66CCCC;
